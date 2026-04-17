@@ -1,0 +1,386 @@
+{
+  "per_domain_ndcg": {
+    "Art": {
+      "TF-IDF uni (TA)": 0.5079,
+      "TF-IDF bi (TA)": 0.3904,
+      "TF-IDF uni (FT)": 0.5856,
+      "TF-IDF bi (FT)": 0.5585,
+      "BM25 (FT)": 0.5135,
+      "BM25+ (FT)": 0.5032,
+      "BM25L (FT)": 0.5135,
+      "SPECTER Prox": 0.1681
+    },
+    "Biology": {
+      "TF-IDF uni (TA)": 0.4361,
+      "TF-IDF bi (TA)": 0.4278,
+      "TF-IDF uni (FT)": 0.4853,
+      "TF-IDF bi (FT)": 0.4792,
+      "BM25 (FT)": 0.3862,
+      "BM25+ (FT)": 0.3906,
+      "BM25L (FT)": 0.3969,
+      "SPECTER Prox": 0.4874
+    },
+    "Business": {
+      "TF-IDF uni (TA)": 0.562,
+      "TF-IDF bi (TA)": 0.6806,
+      "TF-IDF uni (FT)": 0.7523,
+      "TF-IDF bi (FT)": 0.6637,
+      "BM25 (FT)": 0.6709,
+      "BM25+ (FT)": 0.6709,
+      "BM25L (FT)": 0.6709,
+      "SPECTER Prox": 0.5475
+    },
+    "Chemistry": {
+      "TF-IDF uni (TA)": 0.5507,
+      "TF-IDF bi (TA)": 0.5947,
+      "TF-IDF uni (FT)": 0.6642,
+      "TF-IDF bi (FT)": 0.6941,
+      "BM25 (FT)": 0.5592,
+      "BM25+ (FT)": 0.5604,
+      "BM25L (FT)": 0.5834,
+      "SPECTER Prox": 0.4907
+    },
+    "Computer Science": {
+      "TF-IDF uni (TA)": 0.3965,
+      "TF-IDF bi (TA)": 0.4603,
+      "TF-IDF uni (FT)": 0.3827,
+      "TF-IDF bi (FT)": 0.5049,
+      "BM25 (FT)": 0.4507,
+      "BM25+ (FT)": 0.452,
+      "BM25L (FT)": 0.4512,
+      "SPECTER Prox": 0.4207
+    },
+    "Economics": {
+      "TF-IDF uni (TA)": 0.6332,
+      "TF-IDF bi (TA)": 0.7779,
+      "TF-IDF uni (FT)": 0.7722,
+      "TF-IDF bi (FT)": 0.9364,
+      "BM25 (FT)": 0.7314,
+      "BM25+ (FT)": 0.7133,
+      "BM25L (FT)": 0.7066,
+      "SPECTER Prox": 0.8643
+    },
+    "Engineering": {
+      "TF-IDF uni (TA)": 0.2647,
+      "TF-IDF bi (TA)": 0.2707,
+      "TF-IDF uni (FT)": 0.2793,
+      "TF-IDF bi (FT)": 0.2207,
+      "BM25 (FT)": 0.2603,
+      "BM25+ (FT)": 0.2793,
+      "BM25L (FT)": 0.2647,
+      "SPECTER Prox": 0.3578
+    },
+    "Environmental Science": {
+      "TF-IDF uni (TA)": 0.6669,
+      "TF-IDF bi (TA)": 0.5968,
+      "TF-IDF uni (FT)": 0.6942,
+      "TF-IDF bi (FT)": 0.7339,
+      "BM25 (FT)": 0.6162,
+      "BM25+ (FT)": 0.6566,
+      "BM25L (FT)": 0.6579,
+      "SPECTER Prox": 0.7455
+    },
+    "Geography": {
+      "TF-IDF uni (TA)": 0.3046,
+      "TF-IDF bi (TA)": 0.2037,
+      "TF-IDF uni (FT)": 0.5469,
+      "TF-IDF bi (FT)": 0.3578,
+      "BM25 (FT)": 0.3103,
+      "BM25+ (FT)": 0.3103,
+      "BM25L (FT)": 0.3051,
+      "SPECTER Prox": 0.0588
+    },
+    "Geology": {
+      "TF-IDF uni (TA)": 0.6011,
+      "TF-IDF bi (TA)": 0.5908,
+      "TF-IDF uni (FT)": 0.6011,
+      "TF-IDF bi (FT)": 0.6173,
+      "BM25 (FT)": 0.648,
+      "BM25+ (FT)": 0.6173,
+      "BM25L (FT)": 0.648,
+      "SPECTER Prox": 0.7221
+    },
+    "History": {
+      "TF-IDF uni (TA)": 1.0,
+      "TF-IDF bi (TA)": 1.0,
+      "TF-IDF uni (FT)": 1.0,
+      "TF-IDF bi (FT)": 1.0,
+      "BM25 (FT)": 1.0,
+      "BM25+ (FT)": 1.0,
+      "BM25L (FT)": 1.0,
+      "SPECTER Prox": 1.0
+    },
+    "Materials Science": {
+      "TF-IDF uni (TA)": 0.6917,
+      "TF-IDF bi (TA)": 0.7033,
+      "TF-IDF uni (FT)": 0.7013,
+      "TF-IDF bi (FT)": 0.6775,
+      "BM25 (FT)": 0.8043,
+      "BM25+ (FT)": 0.7146,
+      "BM25L (FT)": 0.731,
+      "SPECTER Prox": 0.6394
+    },
+    "Mathematics": {
+      "TF-IDF uni (TA)": 0.6766,
+      "TF-IDF bi (TA)": 0.6954,
+      "TF-IDF uni (FT)": 0.9241,
+      "TF-IDF bi (FT)": 0.7398,
+      "BM25 (FT)": 0.6916,
+      "BM25+ (FT)": 0.6916,
+      "BM25L (FT)": 0.6916,
+      "SPECTER Prox": 0.69
+    },
+    "Medicine": {
+      "TF-IDF uni (TA)": 0.4136,
+      "TF-IDF bi (TA)": 0.4463,
+      "TF-IDF uni (FT)": 0.4919,
+      "TF-IDF bi (FT)": 0.4938,
+      "BM25 (FT)": 0.4446,
+      "BM25+ (FT)": 0.4565,
+      "BM25L (FT)": 0.4468,
+      "SPECTER Prox": 0.4542
+    },
+    "Philosophy": {
+      "TF-IDF uni (TA)": 0.0,
+      "TF-IDF bi (TA)": 0.0,
+      "TF-IDF uni (FT)": 0.0,
+      "TF-IDF bi (FT)": 0.2184,
+      "BM25 (FT)": 0.0,
+      "BM25+ (FT)": 0.0,
+      "BM25L (FT)": 0.0,
+      "SPECTER Prox": 0.0
+    },
+    "Physics": {
+      "TF-IDF uni (TA)": 0.4326,
+      "TF-IDF bi (TA)": 0.5152,
+      "TF-IDF uni (FT)": 0.7059,
+      "TF-IDF bi (FT)": 0.6653,
+      "BM25 (FT)": 0.7776,
+      "BM25+ (FT)": 0.7462,
+      "BM25L (FT)": 0.7491,
+      "SPECTER Prox": 0.5064
+    },
+    "Political Science": {
+      "TF-IDF uni (TA)": 0.3066,
+      "TF-IDF bi (TA)": 0.0,
+      "TF-IDF uni (FT)": 0.6934,
+      "TF-IDF bi (FT)": 0.7977,
+      "BM25 (FT)": 0.9197,
+      "BM25+ (FT)": 0.9197,
+      "BM25L (FT)": 0.9197,
+      "SPECTER Prox": 0.6131
+    },
+    "Psychology": {
+      "TF-IDF uni (TA)": 0.7324,
+      "TF-IDF bi (TA)": 0.7213,
+      "TF-IDF uni (FT)": 0.7331,
+      "TF-IDF bi (FT)": 0.771,
+      "BM25 (FT)": 0.6067,
+      "BM25+ (FT)": 0.6067,
+      "BM25L (FT)": 0.6293,
+      "SPECTER Prox": 0.6905
+    },
+    "Sociology": {
+      "TF-IDF uni (TA)": 0.5934,
+      "TF-IDF bi (TA)": 0.4915,
+      "TF-IDF uni (FT)": 0.9306,
+      "TF-IDF bi (FT)": 0.9306,
+      "BM25 (FT)": 1.0,
+      "BM25+ (FT)": 1.0,
+      "BM25L (FT)": 1.0,
+      "SPECTER Prox": 0.8048
+    }
+  },
+  "per_domain_recall": {
+    "Art": {
+      "TF-IDF uni (TA)": 0.5,
+      "TF-IDF bi (TA)": 0.5,
+      "TF-IDF uni (FT)": 0.5,
+      "TF-IDF bi (FT)": 0.5,
+      "BM25 (FT)": 0.5,
+      "BM25+ (FT)": 0.5,
+      "BM25L (FT)": 0.5,
+      "SPECTER Prox": 0.5
+    },
+    "Biology": {
+      "TF-IDF uni (TA)": 0.69,
+      "TF-IDF bi (TA)": 0.6674,
+      "TF-IDF uni (FT)": 0.8291,
+      "TF-IDF bi (FT)": 0.8418,
+      "BM25 (FT)": 0.7532,
+      "BM25+ (FT)": 0.7253,
+      "BM25L (FT)": 0.7655,
+      "SPECTER Prox": 0.7165
+    },
+    "Business": {
+      "TF-IDF uni (TA)": 0.8,
+      "TF-IDF bi (TA)": 0.9667,
+      "TF-IDF uni (FT)": 0.9667,
+      "TF-IDF bi (FT)": 0.9667,
+      "BM25 (FT)": 0.9667,
+      "BM25+ (FT)": 0.9667,
+      "BM25L (FT)": 0.9667,
+      "SPECTER Prox": 0.8
+    },
+    "Chemistry": {
+      "TF-IDF uni (TA)": 0.7355,
+      "TF-IDF bi (TA)": 0.7121,
+      "TF-IDF uni (FT)": 0.8136,
+      "TF-IDF bi (FT)": 0.7833,
+      "BM25 (FT)": 0.7533,
+      "BM25+ (FT)": 0.771,
+      "BM25L (FT)": 0.7733,
+      "SPECTER Prox": 0.7388
+    },
+    "Computer Science": {
+      "TF-IDF uni (TA)": 0.6747,
+      "TF-IDF bi (TA)": 0.7284,
+      "TF-IDF uni (FT)": 0.8187,
+      "TF-IDF bi (FT)": 0.7854,
+      "BM25 (FT)": 0.7028,
+      "BM25+ (FT)": 0.7005,
+      "BM25L (FT)": 0.7028,
+      "SPECTER Prox": 0.7978
+    },
+    "Economics": {
+      "TF-IDF uni (TA)": 0.7647,
+      "TF-IDF bi (TA)": 0.7647,
+      "TF-IDF uni (FT)": 0.7647,
+      "TF-IDF bi (FT)": 0.8235,
+      "BM25 (FT)": 0.7647,
+      "BM25+ (FT)": 0.7647,
+      "BM25L (FT)": 0.7647,
+      "SPECTER Prox": 0.9412
+    },
+    "Engineering": {
+      "TF-IDF uni (TA)": 0.75,
+      "TF-IDF bi (TA)": 0.625,
+      "TF-IDF uni (FT)": 0.625,
+      "TF-IDF bi (FT)": 0.5,
+      "BM25 (FT)": 0.625,
+      "BM25+ (FT)": 0.625,
+      "BM25L (FT)": 0.625,
+      "SPECTER Prox": 0.625
+    },
+    "Environmental Science": {
+      "TF-IDF uni (TA)": 0.9762,
+      "TF-IDF bi (TA)": 0.9762,
+      "TF-IDF uni (FT)": 0.9762,
+      "TF-IDF bi (FT)": 0.9762,
+      "BM25 (FT)": 0.9524,
+      "BM25+ (FT)": 0.9524,
+      "BM25L (FT)": 0.9524,
+      "SPECTER Prox": 0.8095
+    },
+    "Geography": {
+      "TF-IDF uni (TA)": 0.9,
+      "TF-IDF bi (TA)": 1.0,
+      "TF-IDF uni (FT)": 1.0,
+      "TF-IDF bi (FT)": 1.0,
+      "BM25 (FT)": 0.9,
+      "BM25+ (FT)": 0.9,
+      "BM25L (FT)": 0.9,
+      "SPECTER Prox": 1.0
+    },
+    "Geology": {
+      "TF-IDF uni (TA)": 1.0,
+      "TF-IDF bi (TA)": 1.0,
+      "TF-IDF uni (FT)": 1.0,
+      "TF-IDF bi (FT)": 1.0,
+      "BM25 (FT)": 1.0,
+      "BM25+ (FT)": 1.0,
+      "BM25L (FT)": 1.0,
+      "SPECTER Prox": 1.0
+    },
+    "History": {
+      "TF-IDF uni (TA)": 1.0,
+      "TF-IDF bi (TA)": 1.0,
+      "TF-IDF uni (FT)": 1.0,
+      "TF-IDF bi (FT)": 1.0,
+      "BM25 (FT)": 1.0,
+      "BM25+ (FT)": 1.0,
+      "BM25L (FT)": 1.0,
+      "SPECTER Prox": 1.0
+    },
+    "Materials Science": {
+      "TF-IDF uni (TA)": 0.8304,
+      "TF-IDF bi (TA)": 0.8391,
+      "TF-IDF uni (FT)": 0.8855,
+      "TF-IDF bi (FT)": 0.8855,
+      "BM25 (FT)": 0.8725,
+      "BM25+ (FT)": 0.8725,
+      "BM25L (FT)": 0.8725,
+      "SPECTER Prox": 0.8464
+    },
+    "Mathematics": {
+      "TF-IDF uni (TA)": 1.0,
+      "TF-IDF bi (TA)": 1.0,
+      "TF-IDF uni (FT)": 1.0,
+      "TF-IDF bi (FT)": 1.0,
+      "BM25 (FT)": 1.0,
+      "BM25+ (FT)": 1.0,
+      "BM25L (FT)": 1.0,
+      "SPECTER Prox": 0.75
+    },
+    "Medicine": {
+      "TF-IDF uni (TA)": 0.7268,
+      "TF-IDF bi (TA)": 0.72,
+      "TF-IDF uni (FT)": 0.7982,
+      "TF-IDF bi (FT)": 0.7755,
+      "BM25 (FT)": 0.7347,
+      "BM25+ (FT)": 0.7347,
+      "BM25L (FT)": 0.7347,
+      "SPECTER Prox": 0.7823
+    },
+    "Philosophy": {
+      "TF-IDF uni (TA)": 0.0,
+      "TF-IDF bi (TA)": 0.0,
+      "TF-IDF uni (FT)": 0.5,
+      "TF-IDF bi (FT)": 0.5,
+      "BM25 (FT)": 0.5,
+      "BM25+ (FT)": 0.5,
+      "BM25L (FT)": 0.5,
+      "SPECTER Prox": 0.0
+    },
+    "Physics": {
+      "TF-IDF uni (TA)": 0.7737,
+      "TF-IDF bi (TA)": 0.7737,
+      "TF-IDF uni (FT)": 0.9258,
+      "TF-IDF bi (FT)": 0.9333,
+      "BM25 (FT)": 0.9035,
+      "BM25+ (FT)": 0.9035,
+      "BM25L (FT)": 0.9035,
+      "SPECTER Prox": 0.8904
+    },
+    "Political Science": {
+      "TF-IDF uni (TA)": 0.5,
+      "TF-IDF bi (TA)": 0.5,
+      "TF-IDF uni (FT)": 1.0,
+      "TF-IDF bi (FT)": 1.0,
+      "BM25 (FT)": 1.0,
+      "BM25+ (FT)": 1.0,
+      "BM25L (FT)": 1.0,
+      "SPECTER Prox": 0.5
+    },
+    "Psychology": {
+      "TF-IDF uni (TA)": 1.0,
+      "TF-IDF bi (TA)": 0.9167,
+      "TF-IDF uni (FT)": 1.0,
+      "TF-IDF bi (FT)": 1.0,
+      "BM25 (FT)": 0.925,
+      "BM25+ (FT)": 0.925,
+      "BM25L (FT)": 0.925,
+      "SPECTER Prox": 1.0
+    },
+    "Sociology": {
+      "TF-IDF uni (TA)": 0.5246,
+      "TF-IDF bi (TA)": 0.5902,
+      "TF-IDF uni (FT)": 0.7705,
+      "TF-IDF bi (FT)": 0.8197,
+      "BM25 (FT)": 0.7377,
+      "BM25+ (FT)": 0.7377,
+      "BM25L (FT)": 0.7377,
+      "SPECTER Prox": 0.7869
+    }
+  }
+}
